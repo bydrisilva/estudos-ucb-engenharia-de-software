@@ -1,4 +1,4 @@
-# ATIVIDADE 04/03 - Desafio 2: Adivinhe o Número.
+# DESAFIO 2: ADIVINHE O NÚMERO.
 # Escreva um programa que:
 # 1. Defina uma constante NUMERO_SECRETO = 42.
 # 2. Defina uma constante MAX_TENTATIVAS = 5.

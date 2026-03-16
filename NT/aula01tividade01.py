@@ -1,10 +1,8 @@
-# ATIVIDADE 04/03 - Calculadora de IMC.
+# DESAFIO 1. CALCULADORA DE IMC.
 #Escreva um programa que:
 #Solicite ao usuário seu nome, peso (kg) e altura (m)1.
 #Calcule o IMC: peso / altura²2.
 #Exiba o nome do usuário e a classificação correspondente.
-
-
 
 # RECEBENDO OS DADOS. 
 nome = input("Digite o seu nome:")
