@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 3 - Adrielle Rocha</title>
+</head>
+<body>
+    <h1>Projeto DOM - Adrielle Rocha (UCB)</h1>
+
+    <section>
+        <h3>Contador de exercícios concluídos</h3>
+        <button id="btnMais">Adicionar</button>
+        <button id="btnMenos">Remover</button>
+        <p>Total: <span id="numContador">0</span></p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Bloco de notas em tempo real</h3>
+        <input type="text" id="inputNota" placeholder="Digite algo para registrar...">
+        <p id="msgFeedback">Aguardando sua digitação...</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Gerador de lista dinâmica</h3>
+        <p>Digite itens separados por vírgula para criar sua lista:</p>
+        <input type="text" id="itensLista" placeholder="Ex: Estudar, Café, Academia">
+        
+        <br><br>
+        <select id="estiloLista">
+            <option value="ul">Lista com marcadores (Aleatória)</option>
+            <option value="ol">Lista numerada (Ordenada)</option>
+        </select>
+        <button id="btnGerar">Gerar lista agora</button>
+        
+        <div id="painelLista"></div>
+    </section>
+
+    <br>
+    <button onclick="location.reload()">Limpar toda a tela</button>
+
+    <script src="dom.js"></script>
+</body>
+</html>
